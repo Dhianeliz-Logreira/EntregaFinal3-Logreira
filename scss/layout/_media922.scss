@@ -1,0 +1,10 @@
+@media (max-width: 922px) {
+    .section-cards {
+     @include flex-wrap;
+      gap: 0.625rem;
+    }
+    .button1 {
+      font-size: .75rem;
+      }
+  
+  }

@@ -1,0 +1,39 @@
+@media (max-width: 320px) {
+    .button1 {
+      font-size: 10px;
+    }
+    .grid{
+      grid-template-columns: 60%;
+      grid-template-rows: repeat(4, 310px);
+      grid-template-areas:
+    
+      "col1"
+      "col2"
+      "col3"
+      "col4"
+    }
+    .color5{
+      display: none;
+    }
+    .color6{
+      display: none;
+    }
+    .color7{
+      display: none;
+    }
+    .color8{
+      display: none;
+    }
+    .color9{
+      display: none;
+    }
+    .color10{
+      display: none;
+    }
+    .color11{
+      display: none;
+    }
+    .color12{
+      display: none;
+    }
+}

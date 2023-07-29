@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&family=Roboto+Slab:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  border-radius: 0.9375rem;
+  padding-left: 2.8125rem;
+  padding-top: 0.3125rem;
+}
+
+.button1 {
+  height: 10%;
+  width: 42%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #9BABB8;
+  border-radius: 0.625rem;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header .navbar {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 1.5625rem;
+  background-image: url("../assets/img/estal.jpg");
+  background-size: cover;
+  font-size: 1rem;
+  font-weight: bold;
+}
+header .dropdown-menu {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-index .banner {
+  text-align: center;
+  margin: 2.1875rem;
+}
+.main-index .grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 13% 13% 13% 13%;
+  grid-template-rows: repeat(4, 330px);
+  grid-template-areas: "col1 col2 col3 col4" "col5 col6 col7 col8" "col9 col10 col11 col12";
+  justify-content: center;
+  gap: 1.875rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.main-index .color1 {
+  grid-area: col1;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color2 {
+  grid-area: col2;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color3 {
+  grid-area: col3;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color4 {
+  grid-area: col4;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color5 {
+  grid-area: col5;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color6 {
+  grid-area: col6;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color7 {
+  grid-area: col7;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color8 {
+  grid-area: col8;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color9 {
+  grid-area: col9;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color10 {
+  grid-area: col10;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color11 {
+  grid-area: col11;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .color12 {
+  grid-area: col12;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.main-index .img1 {
+  padding: 0.9375rem 0.9375rem;
+}
+
+.container0 .grid {
+  grid-template-columns: 13% 13% 13% 13%;
+}
+@media (max-width: 1300px) {
+  .container0 .grid {
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(4, 320px);
+    grid-template-areas: "col1 col2 col3 col4" "col5 col6 col7 col8" "col9 col10 col11 col12";
+    font-size: 0.75rem;
+  }
+}
+.container0 .grid .color1 {
+  grid-area: col1;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color2 {
+  grid-area: col2;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color3 {
+  grid-area: col3;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color4 {
+  grid-area: col4;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color5 {
+  grid-area: col5;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color6 {
+  grid-area: col6;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color7 {
+  grid-area: col7;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color8 {
+  grid-area: col8;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color9 {
+  grid-area: col9;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color10 {
+  grid-area: col10;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color11 {
+  grid-area: col11;
+  background-color: #ECF2FF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .color12 {
+  grid-area: col12;
+  background-color: #E3DFFD;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container0 .grid .img1 {
+  padding: 0.9375rem 0.9375rem;
+}
+
+@media (max-width: 1300px) {
+  .grid {
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(4, 320px);
+    grid-template-areas: "col1 col2 col3 col4" "col5 col6 col7 col8" "col9 col10 col11 col12";
+    font-size: 0.75rem;
+  }
+  .button1 {
+    height: 10%;
+    width: 40%;
+  }
+}
+.main-ficha .container {
+  margin-top: 1.25rem;
+  background-color: #ECF2FF;
+  border-radius: 0.9375rem;
+  box-shadow: 0.3125rem 0.3125rem 0.125rem #B2B2B2;
+}
+.main-ficha .section-principal img {
+  padding-top: 0.625rem;
+}
+.main-ficha h3 {
+  text-align: center;
+  padding-top: 1.875rem;
+}
+.main-ficha .section-cards {
+  display: flex;
+  justify-content: center;
+}
+.main-ficha .cards, .main-ficha .cards2 {
+  width: 12.5rem;
+  height: 21.875rem;
+  background-color: #c3cde7;
+  border-radius: 1rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 1.25rem 1.875rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.main-ficha .cards2 {
+  background-color: #aab7d5;
+}
+.main-ficha .clase-img {
+  padding-top: 0.625rem;
+}
+
+.main-compra .form1 {
+  padding: 0.625rem 0.625rem;
+}
+.main-compra .form1 .form-control {
+  box-shadow: 0.125rem 0.125rem 0.0625rem #bcbaba;
+}
+.main-compra .primary {
+  background-color: #9BABB8;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0.3125rem;
+  width: 25%;
+  border: none;
+}
+
+.main-fin .section-cards1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.125rem;
+  width: 40.625rem;
+  height: 37.5rem;
+  background-color: #ECF2FF;
+  color: black;
+  text-align: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-right: 30%;
+  margin-bottom: 15%;
+  margin-left: 30%;
+  border-radius: 0.9375rem;
+  box-shadow: 0.3125rem 0.3125rem 0.125rem #B2B2B2;
+}
+
+.container1 {
+  background-color: #9575DE;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 922px) {
+  .section-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+  }
+  .button1 {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .button1 {
+    height: 8%;
+    width: 38%;
+    font-size: 0.625rem;
+  }
+  .section-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+  }
+  .grid {
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: "col1 col2 col3" "col4 col5 col6" "col7 col8 col9";
+  }
+  .color10 {
+    display: none;
+  }
+  .color11 {
+    display: none;
+  }
+  .color12 {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .button1 {
+    font-size: 10px;
+  }
+  .grid {
+    grid-template-columns: 60%;
+    grid-template-rows: repeat(4, 310px);
+    grid-template-areas: "col1" "col2" "col3" "col4";
+  }
+  .color5 {
+    display: none;
+  }
+  .color6 {
+    display: none;
+  }
+  .color7 {
+    display: none;
+  }
+  .color8 {
+    display: none;
+  }
+  .color9 {
+    display: none;
+  }
+  .color10 {
+    display: none;
+  }
+  .color11 {
+    display: none;
+  }
+  .color12 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

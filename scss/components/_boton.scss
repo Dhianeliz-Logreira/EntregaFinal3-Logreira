@@ -1,0 +1,19 @@
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    border-radius: .9375rem;
+    padding-left: 2.8125rem;
+    padding-top: .3125rem;
+}
+
+.button1 {
+    height: 10%;
+    width: 42%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #9BABB8;
+    border-radius: .625rem;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+  }

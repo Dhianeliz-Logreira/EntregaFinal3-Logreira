@@ -1,0 +1,38 @@
+.main-ficha{
+    .container {
+        margin-top: 1.25rem;
+        background-color: #ECF2FF;
+        border-radius: .9375rem;
+        box-shadow: .3125rem .3125rem .125rem #B2B2B2;
+    }
+    .section-principal img {
+        padding-top: .625rem;
+    }
+    h3 {
+        text-align: center;
+        padding-top: 1.875rem;
+    }
+    .section-cards {
+        display: flex;
+        justify-content: center;
+    }
+    .cards {
+        width: 12.5rem;
+        height: 21.875rem;
+        background-color: #c3cde7;
+        border-radius: 1rem;
+        text-align: center;
+        text-decoration: none;
+        margin: 1.25rem 1.875rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+    .cards2{
+        @extend .cards;
+        background-color: #aab7d5;
+    }
+
+    .clase-img {
+        padding-top: .625rem;
+    }
+}
