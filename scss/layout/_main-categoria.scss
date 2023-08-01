@@ -1,23 +1,52 @@
 
-  .container0{
+    .banner{
+        text-align: center;
+        padding-top: .9375rem;
+    }
     .grid {
+        display: grid;
+        place-content: center;
         grid-template-columns: 13% 13% 13% 13%;
-        @media(max-width:1300px) {
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "col1 col2 col3 col4"
+        "col5 col6 col7 col8"
+        "col9 col10 col11 col12"
+        ;
+        gap: .9375rem;
+        font-weight: bold;
+        margin: 1.25rem;
+       
+            @media(max-width:1300px) {
                 grid-template-columns: repeat(4, 20%);
-                grid-template-rows: repeat(4, 320px);
-                grid-template-areas:
-        
-                "col1 col2 col3 col4"
-                "col5 col6 col7 col8"
-                "col9 col10 col11 col12"
-                ;
+            }
+            @media(max-width:1234px){
                 font-size: .75rem;
+            }
+            @media(max-width:883px){
+                grid-template-columns: repeat(4, 18%); 
+            }
+            @media(max-width:768px){
+                grid-template-columns: repeat(3,20%);
+                font-size: .625rem;
+            }
+            @media(max-width:566px){
+                grid-template-columns: repeat(2,35%);
+                font-size: .5rem;
+            }
+            @media(max-width:420px){
+                grid-template-columns:1fr;
+            }
+            @media(max-width:320px){
+                grid-template-columns:1fr;
+
             }
             .color1 {
                 grid-area: col1;
                 background-color: $background-grid1;
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
+        
             }
         
             .color2 {
@@ -53,6 +82,7 @@
                 background-color: $background-grid2;
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
+                
             }
         
             .color7 {
@@ -98,7 +128,10 @@
             }
         
             .img1 {
-                padding: .9375rem .9375rem;
+                padding: .3125rem .9375rem;
             }
-        }
+            .card-style{
+                padding: 1rem;
+            }
+         
     }

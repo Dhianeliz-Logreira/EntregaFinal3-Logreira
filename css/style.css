@@ -15,8 +15,6 @@
 }
 
 .button1 {
-  height: 10%;
-  width: 42%;
   font-family: "Open Sans", sans-serif;
   background-color: #9BABB8;
   border-radius: 0.625rem;
@@ -128,105 +126,137 @@ header .dropdown-menu {
   padding: 0.9375rem 0.9375rem;
 }
 
-.container0 .grid {
+.banner {
+  text-align: center;
+  padding-top: 0.9375rem;
+}
+
+.grid {
+  display: grid;
+  place-content: center;
   grid-template-columns: 13% 13% 13% 13%;
+  grid-template-rows: auto;
+  grid-template-areas: "col1 col2 col3 col4" "col5 col6 col7 col8" "col9 col10 col11 col12";
+  gap: 0.9375rem;
+  font-weight: bold;
+  margin: 1.25rem;
 }
 @media (max-width: 1300px) {
-  .container0 .grid {
+  .grid {
     grid-template-columns: repeat(4, 20%);
-    grid-template-rows: repeat(4, 320px);
-    grid-template-areas: "col1 col2 col3 col4" "col5 col6 col7 col8" "col9 col10 col11 col12";
+  }
+}
+@media (max-width: 1234px) {
+  .grid {
     font-size: 0.75rem;
   }
 }
-.container0 .grid .color1 {
+@media (max-width: 883px) {
+  .grid {
+    grid-template-columns: repeat(4, 18%);
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 20%);
+    font-size: 0.625rem;
+  }
+}
+@media (max-width: 566px) {
+  .grid {
+    grid-template-columns: repeat(2, 35%);
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 420px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 320px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+.grid .color1 {
   grid-area: col1;
   background-color: #ECF2FF;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color2 {
+.grid .color2 {
   grid-area: col2;
   background-color: #E3DFFD;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color3 {
+.grid .color3 {
   grid-area: col3;
   background-color: #ECF2FF;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color4 {
+.grid .color4 {
   grid-area: col4;
   background-color: #E3DFFD;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color5 {
+.grid .color5 {
   grid-area: col5;
   background-color: #ECF2FF;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color6 {
+.grid .color6 {
   grid-area: col6;
   background-color: #E3DFFD;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color7 {
+.grid .color7 {
   grid-area: col7;
   background-color: #ECF2FF;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color8 {
+.grid .color8 {
   grid-area: col8;
   background-color: #E3DFFD;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color9 {
+.grid .color9 {
   grid-area: col9;
   background-color: #ECF2FF;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color10 {
+.grid .color10 {
   grid-area: col10;
   background-color: #E3DFFD;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color11 {
+.grid .color11 {
   grid-area: col11;
   background-color: #ECF2FF;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .color12 {
+.grid .color12 {
   grid-area: col12;
   background-color: #E3DFFD;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.container0 .grid .img1 {
-  padding: 0.9375rem 0.9375rem;
+.grid .img1 {
+  padding: 0.3125rem 0.9375rem;
+}
+.grid .card-style {
+  padding: 1rem;
 }
 
-@media (max-width: 1300px) {
-  .grid {
-    grid-template-columns: repeat(4, 20%);
-    grid-template-rows: repeat(4, 320px);
-    grid-template-areas: "col1 col2 col3 col4" "col5 col6 col7 col8" "col9 col10 col11 col12";
-    font-size: 0.75rem;
-  }
-  .button1 {
-    height: 10%;
-    width: 40%;
-  }
-}
 .main-ficha .container {
   margin-top: 1.25rem;
   background-color: #ECF2FF;
@@ -256,7 +286,7 @@ header .dropdown-menu {
   font-weight: bold;
 }
 .main-ficha .cards2 {
-  background-color: #aab7d5;
+  background-color: #94ADD7;
 }
 .main-ficha .clase-img {
   padding-top: 0.625rem;
@@ -298,6 +328,16 @@ header .dropdown-menu {
   font-family: "Roboto Slab", serif;
 }
 
+@media (max-width: 1300px) {
+  .button1 {
+    width: 38%;
+  }
+}
+@media (max-width: 1234px) {
+  .button1 {
+    width: 42%;
+  }
+}
 @media (max-width: 922px) {
   .section-cards {
     display: flex;
@@ -308,10 +348,14 @@ header .dropdown-menu {
     font-size: 0.75rem;
   }
 }
+@media (max-width: 883px) {
+  .button1 {
+    width: 65%;
+  }
+}
 @media (max-width: 768px) {
   .button1 {
-    height: 8%;
-    width: 38%;
+    width: 60%;
     font-size: 0.625rem;
   }
   .section-cards {
@@ -321,8 +365,61 @@ header .dropdown-menu {
   }
   .grid {
     grid-template-columns: repeat(3, 20%);
-    grid-template-rows: repeat(3, 300px);
+    grid-template-rows: auto;
     grid-template-areas: "col1 col2 col3" "col4 col5 col6" "col7 col8 col9";
+  }
+  .color10 {
+    display: none;
+  }
+  .color11 {
+    display: none;
+  }
+  .color12 {
+    display: none;
+  }
+}
+@media (max-width: 566px) {
+  .button1 {
+    width: 48%;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 35%);
+    grid-template-rows: auto;
+    grid-template-areas: "col1 col2" "col3 col4" "col5 col6";
+  }
+  .color7 {
+    display: none;
+  }
+  .color8 {
+    display: none;
+  }
+  .color9 {
+    display: none;
+  }
+  .color10 {
+    display: none;
+  }
+  .color11 {
+    display: none;
+  }
+  .color12 {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "col1" "col2" "col3" "col4" "col5" "col6";
+  }
+  .color7 {
+    display: none;
+  }
+  .color8 {
+    display: none;
+  }
+  .color9 {
+    display: none;
   }
   .color10 {
     display: none;
@@ -339,15 +436,9 @@ header .dropdown-menu {
     font-size: 10px;
   }
   .grid {
-    grid-template-columns: 60%;
-    grid-template-rows: repeat(4, 310px);
-    grid-template-areas: "col1" "col2" "col3" "col4";
-  }
-  .color5 {
-    display: none;
-  }
-  .color6 {
-    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "col1" "col2" "col3" "col4" "col5" "col6";
   }
   .color7 {
     display: none;
