@@ -126,6 +126,11 @@ header .dropdown-menu {
   padding: 0.9375rem 0.9375rem;
 }
 
+.h {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
 .banner {
   text-align: center;
   padding-top: 0.9375rem;
@@ -304,6 +309,11 @@ header .dropdown-menu {
   border-radius: 0.3125rem;
   width: 25%;
   border: none;
+}
+.main-compra .hh {
+  text-align: left;
+  padding-left: 0.9375rem;
+  font-size: 1.5625rem;
 }
 
 .main-fin .section-cards1 {
