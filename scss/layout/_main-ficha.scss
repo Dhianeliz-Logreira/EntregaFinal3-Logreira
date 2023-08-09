@@ -5,6 +5,10 @@
         border-radius: .9375rem;
         box-shadow: .3125rem .3125rem .125rem #B2B2B2;
     }
+    h1{
+        padding: .3125rem;
+        font-size: 1.5rem;
+    }
     .section-principal img {
         padding-top: .625rem;
     }
@@ -34,5 +38,11 @@
 
     .clase-img {
         padding-top: .625rem;
+    }
+    .botones{
+        padding-top: .625rem;
+    }
+    .row{
+        padding: .625rem;
     }
 }

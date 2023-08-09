@@ -1,12 +1,8 @@
 
-.h{
+    .h{
     text-align: center;
     font-size: 1.75rem;
-}  
-   .banner{
-        text-align: center;
-        padding-top: .9375rem;
-    }
+    }  
     .grid {
         display: grid;
         place-content: center;
@@ -131,10 +127,10 @@
                 font-family: 'Open Sans', sans-serif;
             }
         
-            .img1 {
-                padding: .3125rem .9375rem;
-            }
             .card-style{
-                padding: 1rem;
-            }   
+                padding: .75rem;
+            }  
+            .img-fluid{
+                padding: .25rem;
+            }
     }

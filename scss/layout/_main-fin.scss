@@ -1,13 +1,11 @@
 .main-fin{
-    .section-cards1 {
+    .container-fluid1 {
         font-family: 'Roboto Slab', serif;
-        font-size: 1.125rem;
-        width: 40.625rem;
-        height: 37.5rem;
         background-color: #ECF2FF;
         color: black;
         text-align: center;
         align-items: center;
+        padding: .5rem;
         margin-top: 5%;
         margin-right: 30%;
         margin-bottom: 15%;
@@ -15,4 +13,15 @@
         border-radius: .9375rem;
         box-shadow: .3125rem .3125rem .125rem #B2B2B2;
     }
-}
+    .button2{
+        font-family: 'Open Sans', sans-serif;
+        background-color: #9BABB8;
+        border-radius: .625rem;
+        width: auto;
+        border: none;
+        font-weight: bold;
+        text-decoration: none;
+        margin-bottom: .625rem;
+        padding: .5rem;
+        }
+    }
