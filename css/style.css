@@ -177,6 +177,11 @@ header .dropdown-menu {
   font-size: 1.75rem;
 }
 
+.h {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
 .grid {
   display: grid;
   place-content: center;
